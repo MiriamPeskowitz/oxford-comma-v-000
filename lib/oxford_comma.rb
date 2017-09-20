@@ -13,7 +13,7 @@ def oxford_comma(array)
     last_word= []
     new = array[0.. -2].join(", ")
     last_word = array[-1]
-    return "#{new,} and #{last_word}"
+    return "#{new}, and #{last_word}"
     
 
    end
