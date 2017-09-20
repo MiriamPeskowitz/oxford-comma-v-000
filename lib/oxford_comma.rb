@@ -11,11 +11,13 @@ def oxford_comma(array)
   else
     new = array[0.. -2].join(", ")
     last_word = array[-1]
+    binding.pry
     return "#{new}, and #{last_word}"
 
 
    end
 
 end
-binding.pry
+
+x = oxford_comma(["miriam", "dakota", "ashley"])
 # separate the first elements final element, create new array ( and element)
