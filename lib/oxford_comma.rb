@@ -17,4 +17,5 @@ def oxford_comma(array)
    end
 
 end
+binding.pry
 # separate the first elements final element, create new array ( and element)
