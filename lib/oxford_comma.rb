@@ -1,5 +1,5 @@
 
-
+require 'pry'
 def oxford_comma(array)
 
   if array.length <2
@@ -9,8 +9,6 @@ def oxford_comma(array)
     return "#{array[0]} and #{array[1]}"
 
   else
-    new = []
-    last_word= []
     new = array[0.. -2].join(", ")
     last_word = array[-1]
     return "#{new}, and #{last_word}"
